@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB478B42DC93466007B58D7 /* flexKeysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB478B32DC93466007B58D7 /* flexKeysApp.swift */; };
+		CEB478B62DC93466007B58D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB478B52DC93466007B58D7 /* ContentView.swift */; };
+		CEB478B82DC9347A007B58D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB478B72DC9347A007B58D7 /* Assets.xcassets */; };
+		CEB478BB2DC9347A007B58D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB478BA2DC9347A007B58D7 /* Preview Assets.xcassets */; };
+		CEB478C52DC9347C007B58D7 /* flexKeysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB478C42DC9347C007B58D7 /* flexKeysTests.swift */; };
+		CEB478CF2DC9347C007B58D7 /* flexKeysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB478CE2DC9347C007B58D7 /* flexKeysUITests.swift */; };
+		CEB478D12DC9347C007B58D7 /* flexKeysUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB478D02DC9347C007B58D7 /* flexKeysUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEB478C12DC9347C007B58D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB478A82DC93466007B58D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB478AF2DC93466007B58D7;
+			remoteInfo = flexKeys;
+		};
+		CEB478CB2DC9347C007B58D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEB478A82DC93466007B58D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEB478AF2DC93466007B58D7;
+			remoteInfo = flexKeys;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CEB478B02DC93466007B58D7 /* flexKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flexKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB478B32DC93466007B58D7 /* flexKeysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flexKeysApp.swift; sourceTree = "<group>"; };
+		CEB478B52DC93466007B58D7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CEB478B72DC9347A007B58D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB478BA2DC9347A007B58D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CEB478C02DC9347C007B58D7 /* flexKeysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flexKeysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB478C42DC9347C007B58D7 /* flexKeysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flexKeysTests.swift; sourceTree = "<group>"; };
+		CEB478CA2DC9347C007B58D7 /* flexKeysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flexKeysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB478CE2DC9347C007B58D7 /* flexKeysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flexKeysUITests.swift; sourceTree = "<group>"; };
+		CEB478D02DC9347C007B58D7 /* flexKeysUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flexKeysUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB478AD2DC93466007B58D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB478BD2DC9347C007B58D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB478C72DC9347C007B58D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB478A72DC93466007B58D7 = {
+			isa = PBXGroup;
+			children = (
+				CEB478B22DC93466007B58D7 /* flexKeys */,
+				CEB478C32DC9347C007B58D7 /* flexKeysTests */,
+				CEB478CD2DC9347C007B58D7 /* flexKeysUITests */,
+				CEB478B12DC93466007B58D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB478B12DC93466007B58D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB478B02DC93466007B58D7 /* flexKeys.app */,
+				CEB478C02DC9347C007B58D7 /* flexKeysTests.xctest */,
+				CEB478CA2DC9347C007B58D7 /* flexKeysUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB478B22DC93466007B58D7 /* flexKeys */ = {
+			isa = PBXGroup;
+			children = (
+				CEB478B32DC93466007B58D7 /* flexKeysApp.swift */,
+				CEB478B52DC93466007B58D7 /* ContentView.swift */,
+				CEB478B72DC9347A007B58D7 /* Assets.xcassets */,
+				CEB478B92DC9347A007B58D7 /* Preview Content */,
+			);
+			path = flexKeys;
+			sourceTree = "<group>";
+		};
+		CEB478B92DC9347A007B58D7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CEB478BA2DC9347A007B58D7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CEB478C32DC9347C007B58D7 /* flexKeysTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB478C42DC9347C007B58D7 /* flexKeysTests.swift */,
+			);
+			path = flexKeysTests;
+			sourceTree = "<group>";
+		};
+		CEB478CD2DC9347C007B58D7 /* flexKeysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CEB478CE2DC9347C007B58D7 /* flexKeysUITests.swift */,
+				CEB478D02DC9347C007B58D7 /* flexKeysUITestsLaunchTests.swift */,
+			);
+			path = flexKeysUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB478AF2DC93466007B58D7 /* flexKeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB478D42DC9347C007B58D7 /* Build configuration list for PBXNativeTarget "flexKeys" */;
+			buildPhases = (
+				CEB478AC2DC93466007B58D7 /* Sources */,
+				CEB478AD2DC93466007B58D7 /* Frameworks */,
+				CEB478AE2DC93466007B58D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flexKeys;
+			productName = flexKeys;
+			productReference = CEB478B02DC93466007B58D7 /* flexKeys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEB478BF2DC9347C007B58D7 /* flexKeysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB478D72DC9347C007B58D7 /* Build configuration list for PBXNativeTarget "flexKeysTests" */;
+			buildPhases = (
+				CEB478BC2DC9347C007B58D7 /* Sources */,
+				CEB478BD2DC9347C007B58D7 /* Frameworks */,
+				CEB478BE2DC9347C007B58D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB478C22DC9347C007B58D7 /* PBXTargetDependency */,
+			);
+			name = flexKeysTests;
+			productName = flexKeysTests;
+			productReference = CEB478C02DC9347C007B58D7 /* flexKeysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CEB478C92DC9347C007B58D7 /* flexKeysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB478DA2DC9347D007B58D7 /* Build configuration list for PBXNativeTarget "flexKeysUITests" */;
+			buildPhases = (
+				CEB478C62DC9347C007B58D7 /* Sources */,
+				CEB478C72DC9347C007B58D7 /* Frameworks */,
+				CEB478C82DC9347C007B58D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEB478CC2DC9347C007B58D7 /* PBXTargetDependency */,
+			);
+			name = flexKeysUITests;
+			productName = flexKeysUITests;
+			productReference = CEB478CA2DC9347C007B58D7 /* flexKeysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB478A82DC93466007B58D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CEB478AF2DC93466007B58D7 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CEB478BF2DC9347C007B58D7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEB478AF2DC93466007B58D7;
+					};
+					CEB478C92DC9347C007B58D7 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CEB478AF2DC93466007B58D7;
+					};
+				};
+			};
+			buildConfigurationList = CEB478AB2DC93466007B58D7 /* Build configuration list for PBXProject "flexKeys" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB478A72DC93466007B58D7;
+			productRefGroup = CEB478B12DC93466007B58D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB478AF2DC93466007B58D7 /* flexKeys */,
+				CEB478BF2DC9347C007B58D7 /* flexKeysTests */,
+				CEB478C92DC9347C007B58D7 /* flexKeysUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB478AE2DC93466007B58D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB478BB2DC9347A007B58D7 /* Preview Assets.xcassets in Resources */,
+				CEB478B82DC9347A007B58D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB478BE2DC9347C007B58D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB478C82DC9347C007B58D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB478AC2DC93466007B58D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB478B62DC93466007B58D7 /* ContentView.swift in Sources */,
+				CEB478B42DC93466007B58D7 /* flexKeysApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB478BC2DC9347C007B58D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB478C52DC9347C007B58D7 /* flexKeysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEB478C62DC9347C007B58D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB478D12DC9347C007B58D7 /* flexKeysUITestsLaunchTests.swift in Sources */,
+				CEB478CF2DC9347C007B58D7 /* flexKeysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEB478C22DC9347C007B58D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB478AF2DC93466007B58D7 /* flexKeys */;
+			targetProxy = CEB478C12DC9347C007B58D7 /* PBXContainerItemProxy */;
+		};
+		CEB478CC2DC9347C007B58D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEB478AF2DC93466007B58D7 /* flexKeys */;
+			targetProxy = CEB478CB2DC9347C007B58D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CEB478D22DC9347C007B58D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB478D32DC9347C007B58D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB478D52DC9347C007B58D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"flexKeys/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstnameLastname.flexKeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB478D62DC9347C007B58D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"flexKeys/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstnameLastname.flexKeys;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CEB478D82DC9347C007B58D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstnameLastname.flexKeysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flexKeys.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/flexKeys";
+			};
+			name = Debug;
+		};
+		CEB478D92DC9347C007B58D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstnameLastname.flexKeysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flexKeys.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/flexKeys";
+			};
+			name = Release;
+		};
+		CEB478DB2DC9347D007B58D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstnameLastname.flexKeysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flexKeys;
+			};
+			name = Debug;
+		};
+		CEB478DC2DC9347D007B58D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstnameLastname.flexKeysUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = flexKeys;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB478AB2DC93466007B58D7 /* Build configuration list for PBXProject "flexKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB478D22DC9347C007B58D7 /* Debug */,
+				CEB478D32DC9347C007B58D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB478D42DC9347C007B58D7 /* Build configuration list for PBXNativeTarget "flexKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB478D52DC9347C007B58D7 /* Debug */,
+				CEB478D62DC9347C007B58D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB478D72DC9347C007B58D7 /* Build configuration list for PBXNativeTarget "flexKeysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB478D82DC9347C007B58D7 /* Debug */,
+				CEB478D92DC9347C007B58D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB478DA2DC9347D007B58D7 /* Build configuration list for PBXNativeTarget "flexKeysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB478DB2DC9347D007B58D7 /* Debug */,
+				CEB478DC2DC9347D007B58D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB478A82DC93466007B58D7 /* Project object */;
+}
