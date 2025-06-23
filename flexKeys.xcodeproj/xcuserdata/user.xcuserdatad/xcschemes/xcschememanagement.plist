@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KeyFlexKeyboard.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>flexKeys.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CEB478AF2DC93466007B58D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEB478BF2DC9347C007B58D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEB478C92DC9347C007B58D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CEB478E02DC93603007B58D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
